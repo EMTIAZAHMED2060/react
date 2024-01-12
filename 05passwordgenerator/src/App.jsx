@@ -31,8 +31,6 @@ function App() {
     window.navigator.clipboard.writeText(password);
     passwordRef.current?.select();
     toast.success('Successfully copied!')
-
-
   };
 
   useEffect(() => {
