@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import  {useId} from 'react'
 
 function InputBox({
@@ -44,4 +45,4 @@ function InputBox({
   )
 }
 
-export default InputBox
+export default InputBox;
